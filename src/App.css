@@ -1,0 +1,40 @@
+#root, html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    box-sizing: border-box;
+}
+.app{
+    height: 100%;
+    background: url( './images/mountain.jpg');
+    background-size: cover;
+    background-position: center; 
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    text-align: center;
+
+
+}
+.card {
+    background-color: orange;
+    width: 30%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius:  25px;
+    padding: 2px; 
+     
+}
+.card:hover {
+ width:35%;
+ height: 15%;
+ zoom: 0.8;
+}
+
+.heading {
+    font-family: 'Poppins', sans-serif;
+    align-items: center;
+}
